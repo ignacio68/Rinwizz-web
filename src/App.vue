@@ -1,31 +1,32 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    <h1 class="title">RINWIZZ</h1>
+    <h3 class="title__sub">The new social network for your alerts!</h3>
+    <h2 class="text">Coming soon...</h2>
   </div>
 </template>
 
 <style>
+html {
+  background-color: hsl(337, 98%, 23%);
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: whitesmoke;
 }
-#nav {
-  padding: 30px;
+.title {
+  margin-top: 15%;
+  font-size: 10em;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.title__sub {
+  margin-top: 1%;
+  font-size: 3em;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.text {
+  margin-top: 15%;
+  font-size: 4em;
 }
 </style>
